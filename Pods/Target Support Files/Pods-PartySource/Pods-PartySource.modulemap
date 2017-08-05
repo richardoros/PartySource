@@ -1,0 +1,6 @@
+framework module Pods_PartySource {
+  umbrella header "Pods-PartySource-umbrella.h"
+
+  export *
+  module * { export * }
+}
