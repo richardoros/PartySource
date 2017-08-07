@@ -1,0 +1,6 @@
+framework module Pods_PartySourceUITests {
+  umbrella header "Pods-PartySourceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
