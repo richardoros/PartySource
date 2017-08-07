@@ -18,6 +18,8 @@
 		916E3BAA1F37BBF400B0D53C /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */; };
 		916E3BAC1F37BC0100B0D53C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BAB1F37BC0100B0D53C /* ProfileView.swift */; };
 		916E3BAE1F37BC1400B0D53C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BAD1F37BC1400B0D53C /* LoginView.swift */; };
+		91B18AA31F3860DB006376A1 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B18AA21F3860DB006376A1 /* AddReminderView.swift */; };
+		91B18AA51F38618D006376A1 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B18AA41F38618D006376A1 /* Reminder.swift */; };
 		91B87C3C1F36624D005DFA2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */; };
 		99C7D327D5F55BEA147650B4 /* Pods_PartySource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093DCB10BA887834CCC7C50D /* Pods_PartySource.framework */; };
 		DB0429990EBA1778FE48D5D8 /* Pods_PartySourceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D4FA07A1C9262C944A0C59 /* Pods_PartySourceTests.framework */; };
@@ -63,6 +65,9 @@
 		916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		916E3BAB1F37BC0100B0D53C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		916E3BAD1F37BC1400B0D53C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		91B18AA21F3860DB006376A1 /* AddReminderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		91B18AA41F38618D006376A1 /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		91B18AA61F3861B3006376A1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BF394692EEE2E47B3A7327EC /* Pods-PartySourceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartySourceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PartySourceTests/Pods-PartySourceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD0D4B57461DB613918EBDD1 /* Pods-PartySourceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartySourceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PartySourceUITests/Pods-PartySourceUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +129,7 @@
 			children = (
 				916E3BA61F37B9B200B0D53C /* Controllers */,
 				912C7EEE1F3660C800A11473 /* AppDelegate.swift */,
+				91B18AA61F3861B3006376A1 /* Header.h */,
 				912C7EF21F3660C800A11473 /* Main.storyboard */,
 				912C7EF51F3660C800A11473 /* Assets.xcassets */,
 				91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */,
@@ -154,9 +160,11 @@
 		916E3BA61F37B9B200B0D53C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				91B18AA21F3860DB006376A1 /* AddReminderView.swift */,
 				916E3BAD1F37BC1400B0D53C /* LoginView.swift */,
 				916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */,
 				916E3BA71F37B9D100B0D53C /* SignUpView.swift */,
+				91B18AA41F38618D006376A1 /* Reminder.swift */,
 				916E3BAB1F37BC0100B0D53C /* ProfileView.swift */,
 			);
 			name = Controllers;
@@ -487,9 +495,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				916E3BAE1F37BC1400B0D53C /* LoginView.swift in Sources */,
+				91B18AA51F38618D006376A1 /* Reminder.swift in Sources */,
 				916E3BAC1F37BC0100B0D53C /* ProfileView.swift in Sources */,
 				916E3BA81F37B9D100B0D53C /* SignUpView.swift in Sources */,
 				912C7EEF1F3660C800A11473 /* AppDelegate.swift in Sources */,
+				91B18AA31F3860DB006376A1 /* AddReminderView.swift in Sources */,
 				916E3BAA1F37BBF400B0D53C /* ResetPasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
