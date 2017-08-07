@@ -99,7 +99,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Create account" id="hdk-y0-3BQ">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="Uwg-p2-nft">
+                                        <barButtonItem key="leftBarButtonItem" id="Uwg-p2-nft">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zjh-Mv-H7X">
                                                 <rect key="frame" x="16" y="7" width="93" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

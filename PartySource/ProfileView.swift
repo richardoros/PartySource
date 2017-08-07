@@ -32,7 +32,7 @@ class ProfileView: UIView {
         super.viewDidLoad()
         
         //Looks for single or multiple taps.
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(Profile.dismissKeyboard))
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ProfileView.dismissKeyboard))
         
         //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
         //tap.cancelsTouchesInView = false
