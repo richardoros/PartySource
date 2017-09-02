@@ -16,11 +16,25 @@
 		912C7F0F1F3660C800A11473 /* PartySourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C7F0E1F3660C800A11473 /* PartySourceUITests.swift */; };
 		916E3BA81F37B9D100B0D53C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BA71F37B9D100B0D53C /* SignUpView.swift */; };
 		916E3BAA1F37BBF400B0D53C /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */; };
-		916E3BAC1F37BC0100B0D53C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BAB1F37BC0100B0D53C /* ProfileView.swift */; };
 		916E3BAE1F37BC1400B0D53C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BAD1F37BC1400B0D53C /* LoginView.swift */; };
-		91B18AA31F3860DB006376A1 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B18AA21F3860DB006376A1 /* AddReminderView.swift */; };
-		91B18AA51F38618D006376A1 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B18AA41F38618D006376A1 /* Reminder.swift */; };
+		91A32AAD1F423A8900569E25 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A32AAC1F423A8900569E25 /* CustomCell.swift */; };
+		91A32AAF1F43ACD300569E25 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A32AAE1F43ACD300569E25 /* CalendarView.swift */; };
 		91B87C3C1F36624D005DFA2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */; };
+		91BCB1401F45D43E00B50752 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BCB13F1F45D43E00B50752 /* MapKit.framework */; };
+		91BCB1421F45D95500B50752 /* partySource.png in Resources */ = {isa = PBXBuildFile; fileRef = 91BCB1411F45D95500B50752 /* partySource.png */; };
+		91BCB1441F45DCC000B50752 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB1431F45DCC000B50752 /* ProfileView.swift */; };
+		91BCB1471F45E06800B50752 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB1461F45E06800B50752 /* User.swift */; };
+		91BCB1491F46069600B50752 /* AccountTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB1481F46069600B50752 /* AccountTypeView.swift */; };
+		91BCB14B1F463F4A00B50752 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB14A1F463F4A00B50752 /* LocationView.swift */; };
+		91BCB14D1F46BA8A00B50752 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB14C1F46BA8A00B50752 /* UserTableViewCell.swift */; };
+		91BCB1521F4B4AD100B50752 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 91BCB1511F4B4AD100B50752 /* plus.png */; };
+		91BCB1541F55A08E00B50752 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB1531F55A08E00B50752 /* DashboardView.swift */; };
+		91BCB1571F55B5C900B50752 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB1561F55B5C900B50752 /* DataService.swift */; };
+		91BCB25F1F57448D00B50752 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB2561F57448D00B50752 /* GeoFire.m */; };
+		91BCB2601F57448D00B50752 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB2581F57448D00B50752 /* GFBase32Utils.m */; };
+		91BCB2611F57448D00B50752 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB25A1F57448D00B50752 /* GFGeoHash.m */; };
+		91BCB2621F57448D00B50752 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB25C1F57448D00B50752 /* GFGeoHashQuery.m */; };
+		91BCB2631F57448D00B50752 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB25E1F57448D00B50752 /* GFQuery.m */; };
 		99C7D327D5F55BEA147650B4 /* Pods_PartySource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093DCB10BA887834CCC7C50D /* Pods_PartySource.framework */; };
 		DB0429990EBA1778FE48D5D8 /* Pods_PartySourceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D4FA07A1C9262C944A0C59 /* Pods_PartySourceTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,12 +77,38 @@
 		912C7F101F3660C800A11473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		916E3BA71F37B9D100B0D53C /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
-		916E3BAB1F37BC0100B0D53C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		916E3BAD1F37BC1400B0D53C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		91B18AA21F3860DB006376A1 /* AddReminderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
-		91B18AA41F38618D006376A1 /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		91A32AAC1F423A8900569E25 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		91A32AAE1F43ACD300569E25 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		91B18AA61F3861B3006376A1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91BCB13E1F45D42B00B50752 /* PartySource.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PartySource.entitlements; sourceTree = "<group>"; };
+		91BCB13F1F45D43E00B50752 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		91BCB1411F45D95500B50752 /* partySource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = partySource.png; sourceTree = "<group>"; };
+		91BCB1431F45DCC000B50752 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		91BCB1461F45E06800B50752 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		91BCB1481F46069600B50752 /* AccountTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTypeView.swift; sourceTree = "<group>"; };
+		91BCB14A1F463F4A00B50752 /* LocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		91BCB14C1F46BA8A00B50752 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		91BCB1511F4B4AD100B50752 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		91BCB1531F55A08E00B50752 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		91BCB1561F55B5C900B50752 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		91BCB1D31F5742AB00B50752 /* PartySource-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PartySource-Bridging-Header.h"; sourceTree = "<group>"; };
+		91BCB24F1F57448D00B50752 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		91BCB2501F57448D00B50752 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		91BCB2511F57448D00B50752 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		91BCB2521F57448D00B50752 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		91BCB2531F57448D00B50752 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		91BCB2551F57448D00B50752 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		91BCB2561F57448D00B50752 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		91BCB2571F57448D00B50752 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		91BCB2581F57448D00B50752 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		91BCB2591F57448D00B50752 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		91BCB25A1F57448D00B50752 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		91BCB25B1F57448D00B50752 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		91BCB25C1F57448D00B50752 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		91BCB25D1F57448D00B50752 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		91BCB25E1F57448D00B50752 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
 		BF394692EEE2E47B3A7327EC /* Pods-PartySourceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartySourceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PartySourceTests/Pods-PartySourceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD0D4B57461DB613918EBDD1 /* Pods-PartySourceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartySourceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PartySourceUITests/Pods-PartySourceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D1DAFDFB5154EA2C32BF821E /* Pods-PartySourceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartySourceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PartySourceUITests/Pods-PartySourceUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BCB1401F45D43E00B50752 /* MapKit.framework in Frameworks */,
 				99C7D327D5F55BEA147650B4 /* Pods_PartySource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,14 +168,21 @@
 		912C7EED1F3660C800A11473 /* PartySource */ = {
 			isa = PBXGroup;
 			children = (
+				91BCB24D1F57448D00B50752 /* GeoFire */,
+				91BCB1551F55B5B800B50752 /* Services */,
+				91BCB1501F471FA600B50752 /* Images */,
+				91BCB1451F45E04500B50752 /* Models */,
 				916E3BA61F37B9B200B0D53C /* Controllers */,
 				912C7EEE1F3660C800A11473 /* AppDelegate.swift */,
 				91B18AA61F3861B3006376A1 /* Header.h */,
 				912C7EF21F3660C800A11473 /* Main.storyboard */,
+				91BCB13E1F45D42B00B50752 /* PartySource.entitlements */,
 				912C7EF51F3660C800A11473 /* Assets.xcassets */,
 				91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */,
+				91BCB1411F45D95500B50752 /* partySource.png */,
 				912C7EF71F3660C800A11473 /* LaunchScreen.storyboard */,
 				912C7EFA1F3660C800A11473 /* Info.plist */,
+				91BCB1D31F5742AB00B50752 /* PartySource-Bridging-Header.h */,
 			);
 			path = PartySource;
 			sourceTree = "<group>";
@@ -160,14 +208,80 @@
 		916E3BA61F37B9B200B0D53C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				91B18AA21F3860DB006376A1 /* AddReminderView.swift */,
 				916E3BAD1F37BC1400B0D53C /* LoginView.swift */,
 				916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */,
 				916E3BA71F37B9D100B0D53C /* SignUpView.swift */,
-				91B18AA41F38618D006376A1 /* Reminder.swift */,
-				916E3BAB1F37BC0100B0D53C /* ProfileView.swift */,
+				91A32AAE1F43ACD300569E25 /* CalendarView.swift */,
+				91BCB1431F45DCC000B50752 /* ProfileView.swift */,
+				91BCB1481F46069600B50752 /* AccountTypeView.swift */,
+				91BCB14A1F463F4A00B50752 /* LocationView.swift */,
+				91BCB1531F55A08E00B50752 /* DashboardView.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		91BCB1451F45E04500B50752 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91A32AAC1F423A8900569E25 /* CustomCell.swift */,
+				91BCB1461F45E06800B50752 /* User.swift */,
+				91BCB14C1F46BA8A00B50752 /* UserTableViewCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		91BCB1501F471FA600B50752 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				91BCB1511F4B4AD100B50752 /* plus.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		91BCB1551F55B5B800B50752 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				91BCB1561F55B5C900B50752 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		91BCB24D1F57448D00B50752 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				91BCB24E1F57448D00B50752 /* API */,
+				91BCB2531F57448D00B50752 /* GeoFire-Prefix.pch */,
+				91BCB2541F57448D00B50752 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		91BCB24E1F57448D00B50752 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				91BCB24F1F57448D00B50752 /* GeoFire.h */,
+				91BCB2501F57448D00B50752 /* GFCircleQuery.h */,
+				91BCB2511F57448D00B50752 /* GFQuery.h */,
+				91BCB2521F57448D00B50752 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		91BCB2541F57448D00B50752 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				91BCB2551F57448D00B50752 /* GeoFire+Private.h */,
+				91BCB2561F57448D00B50752 /* GeoFire.m */,
+				91BCB2571F57448D00B50752 /* GFBase32Utils.h */,
+				91BCB2581F57448D00B50752 /* GFBase32Utils.m */,
+				91BCB2591F57448D00B50752 /* GFGeoHash.h */,
+				91BCB25A1F57448D00B50752 /* GFGeoHash.m */,
+				91BCB25B1F57448D00B50752 /* GFGeoHashQuery.h */,
+				91BCB25C1F57448D00B50752 /* GFGeoHashQuery.m */,
+				91BCB25D1F57448D00B50752 /* GFQuery+Private.h */,
+				91BCB25E1F57448D00B50752 /* GFQuery.m */,
+			);
+			path = Implementation;
 			sourceTree = "<group>";
 		};
 		947EFF53E3FF5E1734CBC70D /* Pods */ = {
@@ -186,6 +300,7 @@
 		F438B2D2F77629578B742537 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91BCB13F1F45D43E00B50752 /* MapKit.framework */,
 				093DCB10BA887834CCC7C50D /* Pods_PartySource.framework */,
 				25D4FA07A1C9262C944A0C59 /* Pods_PartySourceTests.framework */,
 				7B6804AB55981A1DA50E4D2D /* Pods_PartySourceUITests.framework */,
@@ -270,8 +385,16 @@
 				TargetAttributes = {
 					912C7EEA1F3660C800A11473 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 4JLUJ8SU2K;
+						DevelopmentTeam = 275X9DXFKH;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					912C7EFE1F3660C800A11473 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -314,8 +437,10 @@
 			files = (
 				912C7EF91F3660C800A11473 /* LaunchScreen.storyboard in Resources */,
 				91B87C3C1F36624D005DFA2B /* GoogleService-Info.plist in Resources */,
+				91BCB1421F45D95500B50752 /* partySource.png in Resources */,
 				912C7EF61F3660C800A11473 /* Assets.xcassets in Resources */,
 				912C7EF41F3660C800A11473 /* Main.storyboard in Resources */,
+				91BCB1521F4B4AD100B50752 /* plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,12 +599,20 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-PartySource/Pods-PartySource-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,11 +628,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				916E3BAE1F37BC1400B0D53C /* LoginView.swift in Sources */,
-				91B18AA51F38618D006376A1 /* Reminder.swift in Sources */,
-				916E3BAC1F37BC0100B0D53C /* ProfileView.swift in Sources */,
+				91BCB1571F55B5C900B50752 /* DataService.swift in Sources */,
+				91BCB2611F57448D00B50752 /* GFGeoHash.m in Sources */,
+				91BCB1541F55A08E00B50752 /* DashboardView.swift in Sources */,
+				91BCB25F1F57448D00B50752 /* GeoFire.m in Sources */,
 				916E3BA81F37B9D100B0D53C /* SignUpView.swift in Sources */,
+				91BCB14D1F46BA8A00B50752 /* UserTableViewCell.swift in Sources */,
+				91BCB14B1F463F4A00B50752 /* LocationView.swift in Sources */,
+				91BCB2621F57448D00B50752 /* GFGeoHashQuery.m in Sources */,
+				91A32AAF1F43ACD300569E25 /* CalendarView.swift in Sources */,
 				912C7EEF1F3660C800A11473 /* AppDelegate.swift in Sources */,
-				91B18AA31F3860DB006376A1 /* AddReminderView.swift in Sources */,
+				91BCB1471F45E06800B50752 /* User.swift in Sources */,
+				91A32AAD1F423A8900569E25 /* CustomCell.swift in Sources */,
+				91BCB2601F57448D00B50752 /* GFBase32Utils.m in Sources */,
+				91BCB1441F45DCC000B50752 /* ProfileView.swift in Sources */,
+				91BCB2631F57448D00B50752 /* GFQuery.m in Sources */,
+				91BCB1491F46069600B50752 /* AccountTypeView.swift in Sources */,
 				916E3BAA1F37BBF400B0D53C /* ResetPasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,11 +797,13 @@
 			baseConfigurationReference = 8FC89385B050A0EF0638474C /* Pods-PartySource.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4JLUJ8SU2K;
+				CODE_SIGN_ENTITLEMENTS = PartySource/PartySource.entitlements;
+				DEVELOPMENT_TEAM = 275X9DXFKH;
 				INFOPLIST_FILE = PartySource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "crn-Development.PartySource";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PartySource/PartySource-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -667,11 +813,13 @@
 			baseConfigurationReference = 0EF204BA3A4C70A98726BD47 /* Pods-PartySource.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4JLUJ8SU2K;
+				CODE_SIGN_ENTITLEMENTS = PartySource/PartySource.entitlements;
+				DEVELOPMENT_TEAM = 275X9DXFKH;
 				INFOPLIST_FILE = PartySource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "crn-Development.PartySource";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PartySource/PartySource-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
