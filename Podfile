@@ -13,7 +13,6 @@ target 'PartySource' do
   pod 'Firebase/Storage'
   pod 'Firebase/Database'
   pod 'JTAppleCalendar', '~> 7.0'
-  pod 'GeoFire', '~> 1.1'
   pod 'Alamofire'
   pod 'SWXMLHash'
   pod 'AEXML'

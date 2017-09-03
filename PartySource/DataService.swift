@@ -10,6 +10,7 @@ import Foundation
 import FirebaseDatabase
 import Firebase
 
+
 let DB_BASE = Database.database().reference()
 let geofireRef = Database.database().reference()
 

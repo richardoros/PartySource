@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2CF1CF79D7DB2F49CD349258 /* Pods_PartySourceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6804AB55981A1DA50E4D2D /* Pods_PartySourceUITests.framework */; };
+		9124B7B21F5A5A1A000AC85E /* SoapServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124B7B11F5A5A1A000AC85E /* SoapServiceView.swift */; };
+		9124B7B61F5B4CAC000AC85E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124B7B51F5B4CAC000AC85E /* MapView.swift */; };
 		912C7EEF1F3660C800A11473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C7EEE1F3660C800A11473 /* AppDelegate.swift */; };
 		912C7EF41F3660C800A11473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912C7EF21F3660C800A11473 /* Main.storyboard */; };
 		912C7EF61F3660C800A11473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912C7EF51F3660C800A11473 /* Assets.xcassets */; };
@@ -17,11 +19,11 @@
 		916E3BA81F37B9D100B0D53C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BA71F37B9D100B0D53C /* SignUpView.swift */; };
 		916E3BAA1F37BBF400B0D53C /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */; };
 		916E3BAE1F37BC1400B0D53C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BAD1F37BC1400B0D53C /* LoginView.swift */; };
+		91800B8E1F5BFF8100D7D5A1 /* PartyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91800B8D1F5BFF8100D7D5A1 /* PartyAnnotation.swift */; };
 		91A32AAD1F423A8900569E25 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A32AAC1F423A8900569E25 /* CustomCell.swift */; };
 		91A32AAF1F43ACD300569E25 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A32AAE1F43ACD300569E25 /* CalendarView.swift */; };
 		91B87C3C1F36624D005DFA2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */; };
 		91BCB1401F45D43E00B50752 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BCB13F1F45D43E00B50752 /* MapKit.framework */; };
-		91BCB1421F45D95500B50752 /* partySource.png in Resources */ = {isa = PBXBuildFile; fileRef = 91BCB1411F45D95500B50752 /* partySource.png */; };
 		91BCB1441F45DCC000B50752 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB1431F45DCC000B50752 /* ProfileView.swift */; };
 		91BCB1471F45E06800B50752 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB1461F45E06800B50752 /* User.swift */; };
 		91BCB1491F46069600B50752 /* AccountTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BCB1481F46069600B50752 /* AccountTypeView.swift */; };
@@ -63,6 +65,8 @@
 		25D4FA07A1C9262C944A0C59 /* Pods_PartySourceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartySourceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6804AB55981A1DA50E4D2D /* Pods_PartySourceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartySourceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC89385B050A0EF0638474C /* Pods-PartySource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartySource.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PartySource/Pods-PartySource.debug.xcconfig"; sourceTree = "<group>"; };
+		9124B7B11F5A5A1A000AC85E /* SoapServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapServiceView.swift; sourceTree = "<group>"; };
+		9124B7B51F5B4CAC000AC85E /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		912C7EEB1F3660C800A11473 /* PartySource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartySource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		912C7EEE1F3660C800A11473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		912C7EF31F3660C800A11473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,13 +82,13 @@
 		916E3BA71F37B9D100B0D53C /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		916E3BAD1F37BC1400B0D53C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		91800B8D1F5BFF8100D7D5A1 /* PartyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyAnnotation.swift; sourceTree = "<group>"; };
 		91A32AAC1F423A8900569E25 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		91A32AAE1F43ACD300569E25 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		91B18AA61F3861B3006376A1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		91BCB13E1F45D42B00B50752 /* PartySource.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PartySource.entitlements; sourceTree = "<group>"; };
 		91BCB13F1F45D43E00B50752 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		91BCB1411F45D95500B50752 /* partySource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = partySource.png; sourceTree = "<group>"; };
 		91BCB1431F45DCC000B50752 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		91BCB1461F45E06800B50752 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		91BCB1481F46069600B50752 /* AccountTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTypeView.swift; sourceTree = "<group>"; };
@@ -174,15 +178,14 @@
 				91BCB1451F45E04500B50752 /* Models */,
 				916E3BA61F37B9B200B0D53C /* Controllers */,
 				912C7EEE1F3660C800A11473 /* AppDelegate.swift */,
+				91BCB1D31F5742AB00B50752 /* PartySource-Bridging-Header.h */,
 				91B18AA61F3861B3006376A1 /* Header.h */,
 				912C7EF21F3660C800A11473 /* Main.storyboard */,
 				91BCB13E1F45D42B00B50752 /* PartySource.entitlements */,
 				912C7EF51F3660C800A11473 /* Assets.xcassets */,
 				91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */,
-				91BCB1411F45D95500B50752 /* partySource.png */,
-				912C7EF71F3660C800A11473 /* LaunchScreen.storyboard */,
 				912C7EFA1F3660C800A11473 /* Info.plist */,
-				91BCB1D31F5742AB00B50752 /* PartySource-Bridging-Header.h */,
+				912C7EF71F3660C800A11473 /* LaunchScreen.storyboard */,
 			);
 			path = PartySource;
 			sourceTree = "<group>";
@@ -214,8 +217,10 @@
 				91A32AAE1F43ACD300569E25 /* CalendarView.swift */,
 				91BCB1431F45DCC000B50752 /* ProfileView.swift */,
 				91BCB1481F46069600B50752 /* AccountTypeView.swift */,
+				9124B7B51F5B4CAC000AC85E /* MapView.swift */,
 				91BCB14A1F463F4A00B50752 /* LocationView.swift */,
 				91BCB1531F55A08E00B50752 /* DashboardView.swift */,
+				9124B7B11F5A5A1A000AC85E /* SoapServiceView.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				91A32AAC1F423A8900569E25 /* CustomCell.swift */,
 				91BCB1461F45E06800B50752 /* User.swift */,
 				91BCB14C1F46BA8A00B50752 /* UserTableViewCell.swift */,
+				91800B8D1F5BFF8100D7D5A1 /* PartyAnnotation.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -388,6 +394,9 @@
 						DevelopmentTeam = 275X9DXFKH;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
@@ -437,7 +446,6 @@
 			files = (
 				912C7EF91F3660C800A11473 /* LaunchScreen.storyboard in Resources */,
 				91B87C3C1F36624D005DFA2B /* GoogleService-Info.plist in Resources */,
-				91BCB1421F45D95500B50752 /* partySource.png in Resources */,
 				912C7EF61F3660C800A11473 /* Assets.xcassets in Resources */,
 				912C7EF41F3660C800A11473 /* Main.storyboard in Resources */,
 				91BCB1521F4B4AD100B50752 /* plus.png in Resources */,
@@ -597,21 +605,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PartySource/Pods-PartySource-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/StringExtensionHTML/StringExtensionHTML.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StringExtensionHTML.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -629,6 +643,7 @@
 			files = (
 				916E3BAE1F37BC1400B0D53C /* LoginView.swift in Sources */,
 				91BCB1571F55B5C900B50752 /* DataService.swift in Sources */,
+				9124B7B21F5A5A1A000AC85E /* SoapServiceView.swift in Sources */,
 				91BCB2611F57448D00B50752 /* GFGeoHash.m in Sources */,
 				91BCB1541F55A08E00B50752 /* DashboardView.swift in Sources */,
 				91BCB25F1F57448D00B50752 /* GeoFire.m in Sources */,
@@ -641,8 +656,10 @@
 				91BCB1471F45E06800B50752 /* User.swift in Sources */,
 				91A32AAD1F423A8900569E25 /* CustomCell.swift in Sources */,
 				91BCB2601F57448D00B50752 /* GFBase32Utils.m in Sources */,
+				91800B8E1F5BFF8100D7D5A1 /* PartyAnnotation.swift in Sources */,
 				91BCB1441F45DCC000B50752 /* ProfileView.swift in Sources */,
 				91BCB2631F57448D00B50752 /* GFQuery.m in Sources */,
+				9124B7B61F5B4CAC000AC85E /* MapView.swift in Sources */,
 				91BCB1491F46069600B50752 /* AccountTypeView.swift in Sources */,
 				916E3BAA1F37BBF400B0D53C /* ResetPasswordView.swift in Sources */,
 			);
