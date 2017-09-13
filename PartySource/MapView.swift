@@ -41,16 +41,16 @@ class MapView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     }
     
     
-    func showSightingsOnMap(location: CLLocation) {
-        let circleQuery = geoFire!.query(at: location, withRadius: 2.5)
-        
-        _ = circleQuery?.observe(GFEventType.keyEntered, with: { (key, location) in
-            if let key = key, let location = location {
-                let anno = PartyAnnotation(coordinate: location.coordinate, pokemonNumber: Int(key)!)
-                self.mapView.addAnnotation(anno)
-            }
-        })
-    }
+//    func showSightingsOnMap(location: CLLocation) {
+//        let circleQuery = geoFire!.query(at: location, withRadius: 2.5)
+//        
+//        _ = circleQuery?.observe(GFEventType.keyEntered, with: { (key, location) in
+//            if let key = key, let location = location {
+//                let anno = PartyAnnotation(coordinate: location.coordinate, pokemonNumber: Int(key)!)
+//                self.mapView.addAnnotation(anno)
+//            }
+//        })
+//    }
     
         override func viewDidAppear(_ animated: Bool) {
             locationAuthStatus()

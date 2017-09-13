@@ -17,6 +17,7 @@ struct User {
     
     var username: String!
     var email: String?
+    
     var country: String?
     var photoURL: String!
     var bio: String?
@@ -28,8 +29,10 @@ struct User {
     
     init(snapshot: DataSnapshot){
         
+        
         key = snapshot.key
         ref = snapshot.ref
+        
         username = (snapshot.value! as! NSDictionary)["username"] as! String
         email = (snapshot.value! as! NSDictionary)["email"] as? String
         uid = (snapshot.value! as! NSDictionary)["uid"] as! String

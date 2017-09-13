@@ -11,6 +11,7 @@ import Firebase
 import FirebaseAuth
 //import SwiftKeychainWrapper
 
+
 class SignUpView: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
@@ -20,6 +21,10 @@ class SignUpView: UIViewController {
 //        }
         
     }
+    
+    
+    
+    
     
     @IBOutlet weak var Login: UIBarButtonItem!
     @IBOutlet weak var emailField: UITextField!
@@ -36,13 +41,17 @@ class SignUpView: UIViewController {
             present(alertController, animated: true, completion: nil)
             
         } else {
+            
             Auth.auth().createUser(withEmail: emailField.text!, password: passField.text!) { (user, error) in
-                
+               
                 if error == nil {
                     print("You have successfully signed up")
                     //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
+                    
                     if let user = user {
                         let userData = ["provider": user.providerID]
+                        
+                        
                         self.completeSingIn(id: user.uid, userData: userData)
                         print("USER ID SAVED TO DB! CONGRATS")
                     }

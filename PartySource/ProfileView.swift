@@ -10,6 +10,7 @@ import Foundation
 import Firebase
 import FirebaseAuth
 import FirebaseStorage
+import FirebaseDatabase
 import UIKit
 
 
@@ -22,7 +23,36 @@ let storage = Storage.storage()
 
 class ProfileView: UIViewController {
     
-        let user = Auth.auth().currentUser
+        let user = Auth.auth().currentUser?.uid
+    
+    var storageRef = Storage.storage().reference()
+    
+    @IBOutlet weak var profilePicture: UIImageView!
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var countryField: UITextField!
+    @IBOutlet weak var cityField: UITextField!
+    @IBAction func submitBtn(_ sender: UIButton) {
+        var ref: DatabaseReference
+        let name = nameField.text
+        let country = countryField.text
+        let city = cityField.text
+        
+        let userId = Auth.auth().currentUser?.uid
+        
+        print(name!, country!, city!)
+        
+        ref = Database.database().reference()
+        let key = userId
+        //let key = ref.child("users").childByAutoId().key
+        let post = [
+            "city": city,
+            "country": country,
+            "name": name
+        ]
+        let childUpdates = ["/user/\(key!)":post]
+        ref.updateChildValues(childUpdates)
+        //performSegue(withIdentifier: "backToApp", sender: self)
+    }
     
     
         @IBOutlet weak var profileLabel: UILabel!

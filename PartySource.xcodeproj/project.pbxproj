@@ -20,6 +20,8 @@
 		916E3BAA1F37BBF400B0D53C /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */; };
 		916E3BAE1F37BC1400B0D53C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E3BAD1F37BC1400B0D53C /* LoginView.swift */; };
 		91800B8E1F5BFF8100D7D5A1 /* PartyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91800B8D1F5BFF8100D7D5A1 /* PartyAnnotation.swift */; };
+		9193951D1F5CCC63002AB5BD /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193951C1F5CCC63002AB5BD /* TableView.swift */; };
+		9193951F1F5CCD63002AB5BD /* PartyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193951E1F5CCD63002AB5BD /* PartyList.swift */; };
 		91A32AAD1F423A8900569E25 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A32AAC1F423A8900569E25 /* CustomCell.swift */; };
 		91A32AAF1F43ACD300569E25 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A32AAE1F43ACD300569E25 /* CalendarView.swift */; };
 		91B87C3C1F36624D005DFA2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91B87C3B1F36624D005DFA2B /* GoogleService-Info.plist */; };
@@ -83,6 +85,8 @@
 		916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		916E3BAD1F37BC1400B0D53C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		91800B8D1F5BFF8100D7D5A1 /* PartyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyAnnotation.swift; sourceTree = "<group>"; };
+		9193951C1F5CCC63002AB5BD /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		9193951E1F5CCD63002AB5BD /* PartyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyList.swift; sourceTree = "<group>"; };
 		91A32AAC1F423A8900569E25 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		91A32AAE1F43ACD300569E25 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		91B18AA61F3861B3006376A1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				916E3BAD1F37BC1400B0D53C /* LoginView.swift */,
+				9193951C1F5CCC63002AB5BD /* TableView.swift */,
 				916E3BA91F37BBF400B0D53C /* ResetPasswordView.swift */,
 				916E3BA71F37B9D100B0D53C /* SignUpView.swift */,
 				91A32AAE1F43ACD300569E25 /* CalendarView.swift */,
@@ -232,6 +237,7 @@
 				91BCB1461F45E06800B50752 /* User.swift */,
 				91BCB14C1F46BA8A00B50752 /* UserTableViewCell.swift */,
 				91800B8D1F5BFF8100D7D5A1 /* PartyAnnotation.swift */,
+				9193951E1F5CCD63002AB5BD /* PartyList.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -650,6 +656,7 @@
 				916E3BA81F37B9D100B0D53C /* SignUpView.swift in Sources */,
 				91BCB14D1F46BA8A00B50752 /* UserTableViewCell.swift in Sources */,
 				91BCB14B1F463F4A00B50752 /* LocationView.swift in Sources */,
+				9193951D1F5CCC63002AB5BD /* TableView.swift in Sources */,
 				91BCB2621F57448D00B50752 /* GFGeoHashQuery.m in Sources */,
 				91A32AAF1F43ACD300569E25 /* CalendarView.swift in Sources */,
 				912C7EEF1F3660C800A11473 /* AppDelegate.swift in Sources */,
@@ -659,6 +666,7 @@
 				91800B8E1F5BFF8100D7D5A1 /* PartyAnnotation.swift in Sources */,
 				91BCB1441F45DCC000B50752 /* ProfileView.swift in Sources */,
 				91BCB2631F57448D00B50752 /* GFQuery.m in Sources */,
+				9193951F1F5CCD63002AB5BD /* PartyList.swift in Sources */,
 				9124B7B61F5B4CAC000AC85E /* MapView.swift in Sources */,
 				91BCB1491F46069600B50752 /* AccountTypeView.swift in Sources */,
 				916E3BAA1F37BBF400B0D53C /* ResetPasswordView.swift in Sources */,

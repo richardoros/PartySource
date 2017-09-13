@@ -8,20 +8,25 @@
 
 import Foundation
 
-
-class PartyAnnotation: NSObject, MKAnnotation {
-    var coordinate = CLLocationCoordinate2D()
-    
-    
-    
-    var partyName: String
-    var partyDescriptiom: String
-    var title: String?
-    
-    init(coordinate: CLLocationCoordinate2D, pokemonNumber: Int) {
-        self.coordinate = coordinate
-        
-//        self.pokemonName = pokemon[pokemonNumber - 1].capitalized
-        self.title = self.partyName
-}
-}
+//
+//class PartyAnnotation: NSObject, MKAnnotation {
+//    var coordinate = CLLocationCoordinate2D()
+//    
+//    
+//    
+//    var partyName: String
+//    var partyDescriptiom: String
+//    var title: String?
+//    var pokemonNumber: Int
+//    
+//    init(coordinate: CLLocationCoordinate2D) {
+//        self.coordinate = coordinate
+//        
+//         //      self.pokemonName = pokemon[pokemonNumber - 1].capitalized
+//      
+//        
+//    self.title = self.partyName
+//    
+//}
+//
+//}
